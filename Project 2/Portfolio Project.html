@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="/portstyle.css">
+    <link rel="stylesheet" href="./css/portstyle.css">
     <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
     <style>
        
@@ -18,21 +18,24 @@
 <body>
         <header class="header1">
             <div class="logo"> <p>A.Odat</p></div>
-            <nav>
+             <nav>
+                <i class="fas fa-bars toggle-menu" id="burger"></i>
                 <ul>
-                    <li><a href="#home">Home</li>
-                    <li><a href="#educ">Education</li>
-                    <li><a href="#skills">My Skills</li>
-                    <li><a href="#cer">CERTIFICATION</li>
-                    <li><a href="#footer">CONTACT ME</li>
+                    
+                    <li><a href="#home">Home</li></a>
+                    <li><a href="#educ">Education</li></a>
+                    <li><a href="#skills">My Skills</li></a>
+                    <li><a href="#cer">CERTIFICATION</li></a>
+                    <li><a href="#footer">CONTACT ME</li></a>
                 </ul>
-            </nav>
+            </nav> 
         </header>
         
              
-            <section style="display:flex ; justify-content: space-between;margin-top: 150px;">    
+            <section class="mainsection">  
+                <div class="add">  
                 <div class="ptext" id="home">
-                    <div style="width:auto ;">
+                    <div class="haram" style="width:auto ;">
                     <h1 id="name" ><span style="font-family: 'Caveat', cursive;">I'm </span> Ahmad Odat</h1><br>
                     <p class="p1">Electrical Power engineer<br>
                         at Arabian International Contracting & Construction Company</p><br>
@@ -40,18 +43,21 @@
                         plans, make shop drawings according to local and national electrical codes
                         and coordinate electrical works with the other works in the project.</p> 
                     </div> 
-                    <button class="btn">see my cv</button>  
+                    <button class="btn"> <a href="#">see my cv</a> </button>  
                 </div>
-                
-                <div>
-                    <img class="image" src="/صورة_التخرج-PORTOFOLIO - Copy.png" alt="zzz">
+            </div>
+                <!-- <div class="contimg">
+                    <img class="image"  src="/images/hala hamdan-modified.png" alt="zzz"> -->
                 
         
-                </div> 
+               <div class="im">
+
+                <img class="me" src="/images/صورة_التخرج-PORTOFOLIO - Copy.png" alt="no">
+               </div>
             </section>
-            
+        </div> 
                 <div class="box1" id="educ">
-                    <h2>Education</h2>
+                    <h2>Education:</h2>
                     <p>Bachelor of Electrical Power Engineering Tafila 
                         Technical University [ 09/2013 - 01/2018 ]</p>
                     <h2>Training</h2>
@@ -91,7 +97,7 @@
                     </ul>
                 </div>
                 
-                <h4>Certificate</h4> 
+                <h4>Certificates:</h4> 
 
                 <div class="cont" id="cer">
                     <div class="cart1">
@@ -113,23 +119,23 @@
                     </div>
                 </div>
                 <hr>
-                <h4>My Projects</h4>
+                <h4>My Projects:</h4>
                     <div class="responsive">
-                        <div class="gallery"><img src="./images/wire frame.png" alt="">
+                        <div class="gallery"><img src="./images/wire frame.png" alt="error">
                             <div class="desc">miro Wire frame</div>
                         </div> 
-                        <div class="gallery"><img src="./images/miro face.png" alt="">
+                        <div class="gallery"><img src="./images/miro face.png" alt="error">
                             <div class="desc">Miro mockup</div>
                         </div>   
-                        <div class="gallery"><img src="./images/image (4).png" alt="">
+                        <div class="gallery"><img src="./images/image (4).png" alt="error">
                             <div class="desc">html tabel</div>
                         </div>     
-                        <div class="gallery"><img src="./images/Screenshot 2022-10-30 101928.png" alt="">
+                        <div class="gallery"><img src="./images/Screenshot 2022-10-30 101928.png" alt="error">
                             <div class="desc">Bootstrap</div>
                         </div> 
                     </div>
                     <hr>
-                    <h4>References</h4>
+                    <h4>References:</h4>
                     <div class="responsiveref">
                         <div class="reference"><img src="./images/hala hamdan-modified.png" alt="">
                             <div class="desc">Coach. Hala Hamdan <p>Full-stack technical trainer
